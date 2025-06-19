@@ -10,4 +10,3 @@ test_bigdata_dir = "../data/test"
 
 dev_bigdata_dir = "../data/dev"
 
-alpha = 0.01 # 加alpha平滑的超参数

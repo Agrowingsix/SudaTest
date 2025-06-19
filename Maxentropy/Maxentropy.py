@@ -207,9 +207,7 @@ if __name__ == '__main__':
 
     sentence = ["我", "喜欢", "我的", "手机"]
     print("位置3 ('手机') 的标签概率:")
-    probs = model.predict_probability(sentence, 3)
-    for tag, prob in probs.items():
-        print(f"{tag}: {prob:.4f}")
+    probs = model.predict(sentence, 3)
 
 
 
